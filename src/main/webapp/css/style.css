@@ -1,0 +1,154 @@
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    background-color: #F8F9FA;
+    color: #343A40;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+h1 {
+    color: #007BFF;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 2.2em;
+}
+
+h2 {
+    color: #555;
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.card table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+.card td {
+    padding: 5px 0;
+}
+.card td:first-child {
+    width: 30%;
+    font-weight: 600;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #DC3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #C82333;
+}
+
+.btn-small {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+a:not(.btn) {
+    color: #007BFF;
+    text-decoration: none;
+}
+a:not(.btn):hover {
+    text-decoration: underline;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: none;
+}
+
+.data-table th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.data-table tr:not(:last-child) td {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.data-table tr:hover:not(:first-child) {
+    background-color: #E9ECEF;
+}
+
+.message-success {
+    color: #155724;
+    background-color: #D4EDDA;
+    border: 1px solid #C3E6CB;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
